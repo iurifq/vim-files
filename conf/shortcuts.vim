@@ -38,3 +38,29 @@ command! W w
 
 " Q also quits
 command! Q q
+
+" Move lines up and down
+nnoremap <A-j> :m .+1<CR>==
+nnoremap <A-k> :m .-2<CR>==
+inoremap <A-j> <Esc>:m .+1<CR>==gi
+inoremap <A-k> <Esc>:m .-2<CR>==gi
+vnoremap <A-j> :m '>+1<CR>gv=gv
+vnoremap <A-k> :m '<-2<CR>gv=gv
+
+" Disable home and end keys
+map <home> <nop>
+map <end> <nop>
+
+" Disable arrow keys
+map <up> <nop>
+map <down> <nop>
+map <left> <nop>
+map <right> <nop>
+
+" Automatic folding
+set foldmethod=syntax
+set nofoldenable
+nmap <SPACE> za
+
+" clean last search results
+nnoremap <leader>lr <esc>:let @/ = ""<cr>:<esc>
