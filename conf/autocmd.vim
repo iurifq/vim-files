@@ -23,6 +23,9 @@ au BufNewFile,BufRead *.json setf javascript
 au BufNewFile,BufRead *.md setfiletype markdown
 au BufNewFile,BufRead *.pp setfiletype puppet
 
+let g:xml_syntax_folding=1
+au FileType xml setlocal foldmethod=syntax
+
 au BufReadPost fugitive://* set bufhidden=delete
 
 " Remove trailling white spaces on saving
