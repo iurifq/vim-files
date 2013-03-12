@@ -32,7 +32,7 @@ if has("gui_running")
     set guioptions= " turn off all
 endif
 " Display extra whitespace
-set list listchars=tab:»¿,trail:¿
+set list listchars=tab:»…,trail:…
 
 " Backup directory
 set backupdir=~/.vim_bkp//
