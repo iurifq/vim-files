@@ -64,3 +64,14 @@ nmap <SPACE> za
 
 " clean last search results
 nnoremap <leader>lr <esc>:let @/ = ""<cr>:<esc>
+
+" source current file
+nnoremap <leader>so :source %<CR>
+
+" open vim-files
+fun! OpenVIMFiles()
+  exe "tabnew"
+  exe "lcd $HOME/.vim/"
+  exe "CtrlP"
+endf
+nnoremap <leader>vi :call OpenVIMFiles()<CR>
