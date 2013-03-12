@@ -28,8 +28,6 @@ Bundle 'Raimondi/delimitMate'
 
 Bundle 'Lokaltog/vim-powerline'
 
-Bundle 'vim-scripts/tlib'
-Bundle 'MarcWeber/vim-addon-mw-utils'
 Bundle 'MarcWeber/vim-addon-actions'
 Bundle 'MarcWeber/vim-addon-sbt'
 Bundle 'rosstimson/scala-vim-support'
