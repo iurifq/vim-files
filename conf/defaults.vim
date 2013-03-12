@@ -35,8 +35,8 @@ endif
 set list listchars=tab:»…,trail:…
 
 " Backup directory
-set backupdir=~/.vim_bkp//
-set directory=~/.vim_bkp//
+set backupdir=$HOME/.vim/.swp-files//
+set directory=$HOME/.vim/.swp-files//
 
 " Highlighting lines longer than 80 columns
 highlight OverLength ctermbg=darkred ctermfg=white guibg=#592929
