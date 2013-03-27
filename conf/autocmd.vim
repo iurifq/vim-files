@@ -1,27 +1,29 @@
 " Java specifics
 " Eclim
-au FileType java map <leader>mi :JavaImportOrganize<cr>
-au FileType java map <leader>co :JavaCorrect<cr>
-au FileType java map <leader>fo :JavaFormat<cr>
-au FileType java map <leader>gs :JavaGetSet<cr>
-au FileType java map <leader>se :JavaSearch<cr>
-au FileType java map <leader>jd :JavaDocComment<cr>
-au FileType java map <leader>ju :JUnit<cr>
+au FileType java map <buffer> <leader>mi :JavaImportOrganize<cr>
+au FileType java map <buffer> <leader>co :JavaCorrect<cr>
+au FileType java map <buffer> <leader>fo :JavaFormat<cr>
+au FileType java map <buffer> <leader>gs :JavaGetSet<cr>
+au FileType java map <buffer> <leader>se :JavaSearch<cr>
+au FileType java map <buffer> <leader>jd :JavaDocComment<cr>
+au FileType java map <buffer> <leader>ju :JUnit<cr>
 
 " Scala indent with 2 spaces
-au FileType scala set tabstop=2 shiftwidth=2 softtabstop=2
+au FileType scala setlocal tabstop=2 shiftwidth=2 softtabstop=2
 " Ruby indent with 2 spaces
-au FileType ruby set tabstop=2 shiftwidth=2 softtabstop=2
+au FileType ruby setlocal tabstop=2 shiftwidth=2 softtabstop=2
 " YAML indent with 2 spaces
-au FileType yaml set tabstop=2 shiftwidth=2 softtabstop=2
+au FileType yaml setlocal tabstop=2 shiftwidth=2 softtabstop=2
 
-au BufRead,BufNewFile *.scala set filetype=scala
-au BufRead,BufNewFile *.sbt set filetype=scala
+au FileType xml setlocal noexpandtab
+
+au BufRead,BufNewFile *.scala setf scala
+au BufRead,BufNewFile *.sbt setf scala
 
 au BufNewFile,BufRead *.gradle setf groovy
 au BufNewFile,BufRead *.json setf javascript
-au BufNewFile,BufRead *.md setfiletype markdown
-au BufNewFile,BufRead *.pp setfiletype puppet
+au BufNewFile,BufRead *.md setf markdown
+au BufNewFile,BufRead *.pp setf puppet
 
 let g:xml_syntax_folding=1
 au FileType xml setlocal foldmethod=syntax
