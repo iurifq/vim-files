@@ -52,12 +52,14 @@ Bundle 'szw/vim-tags'
 Bundle 'othree/xml.vim'
 
 Bundle 'gcmt/psearch.vim'
+Bundle 'mattn/webapi-vim'
 
 " Git related
 Bundle 'tpope/vim-fugitive'
 Bundle 'gregsexton/gitv'
 Bundle 'airblade/vim-gitgutter'
 Bundle 'gilligan/textobj-gitgutter'
+Bundle 'mattn/gist-vim'
 
 " Ruby related
 Bundle 'vim-ruby/vim-ruby'
