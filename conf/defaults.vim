@@ -22,7 +22,7 @@ set smartcase " considers case when it is used, on the contrary don't
 set incsearch " search while typing
 set hlsearch "highlight all ocurrences of a pattern
 
-set tabstop=4 shiftwidth=4 softtabstop=4 backspace=indent,eol,start expandtab
+set tabstop=2 shiftwidth=2 softtabstop=2 backspace=indent,eol,start expandtab
 
 if has("gui_running")
     " set guioptions-=T " turn off toolbar

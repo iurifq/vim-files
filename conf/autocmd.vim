@@ -8,12 +8,8 @@ au FileType java map <buffer> <leader>se :JavaSearch<cr>
 au FileType java map <buffer> <leader>jd :JavaDocComment<cr>
 au FileType java map <buffer> <leader>ju :JUnit<cr>
 
-" Scala indent with 2 spaces
-au FileType scala setlocal tabstop=2 shiftwidth=2 softtabstop=2
-" Ruby indent with 2 spaces
-au FileType ruby setlocal tabstop=2 shiftwidth=2 softtabstop=2
-" YAML indent with 2 spaces
-au FileType yaml setlocal tabstop=2 shiftwidth=2 softtabstop=2
+" Java indent with 4 spaces
+au FileType java setlocal tabstop=4 shiftwidth=4 softtabstop=4
 
 au FileType xml setlocal noexpandtab
 
