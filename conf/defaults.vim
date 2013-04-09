@@ -31,6 +31,7 @@ if has("gui_running")
     " set guioptions=m " turn on menu bar
     set guioptions= " turn off all
 endif
+
 " Display extra whitespace
 set list listchars=tab:▸\ ,trail:…
 

@@ -1,3 +1,7 @@
+if has("gui_macvim")
+    let mapleader=";"
+endif
+
 source $HOME/.vim/conf/init.vim
 source $HOME/.vim/conf/autocmd.vim
 source $HOME/.vim/conf/bundles.vim
