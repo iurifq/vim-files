@@ -3,6 +3,7 @@ Bundle 'gmarik/vundle'
 Bundle 'tpope/vim-unimpaired'
 Bundle 'tpope/vim-surround'
 Bundle 'tpope/vim-repeat'
+Bundle 'tpope/vim-dispatch'
 
 Bundle 'skammer/vim-css-color'
 
