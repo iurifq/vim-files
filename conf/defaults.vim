@@ -5,9 +5,9 @@ set clipboard=unnamedplus " tries to use system clipboard
 set cursorline
 
 if has("gui_running")
-    colorscheme molokai
+  colorscheme molokai
 else
-    colorscheme delek
+  colorscheme delek
 endif
 
 filetype plugin indent on
@@ -25,11 +25,11 @@ set hlsearch "highlight all ocurrences of a pattern
 set tabstop=2 shiftwidth=2 softtabstop=2 backspace=indent,eol,start expandtab
 
 if has("gui_running")
-    " set guioptions-=T " turn off toolbar
-    " set guioptions-=r " turn off right scrollbar
-    " set guioptions-=l " turn off left scrollbar
-    " set guioptions=m " turn on menu bar
-    set guioptions= " turn off all
+  " set guioptions-=T " turn off toolbar
+  " set guioptions-=r " turn off right scrollbar
+  " set guioptions-=l " turn off left scrollbar
+  " set guioptions=m " turn on menu bar
+  set guioptions= " turn off all
 endif
 
 " Display extra whitespace
