@@ -66,6 +66,7 @@ Bundle 'mattn/gist-vim'
 Bundle 'vim-ruby/vim-ruby'
 Bundle 'ecomba/vim-ruby-refactoring'
 Bundle 'tpope/vim-rails'
+Bundle 'tpope/vim-bundler'
 Bundle 'nelstrom/vim-textobj-rubyblock'
 
 " Themes
