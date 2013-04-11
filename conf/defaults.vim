@@ -4,7 +4,7 @@ set number " line numbers
 set clipboard=unnamedplus " tries to use system clipboard
 set cursorline
 
-if has("gui_running") && isdirectory('.vim/bundle/molokai')
+if isdirectory(expand("~/.vim/bundle/molokai.vim"))
   colorscheme molokai
 else
   colorscheme delek
