@@ -5,7 +5,7 @@ Bundle 'tpope/vim-surround'
 Bundle 'tpope/vim-repeat'
 Bundle 'tpope/vim-dispatch'
 
-Bundle 'skammer/vim-css-color'
+Bundle 'ap/vim-css-color'
 
 Bundle 'mutewinter/vim-indent-guides'
 
