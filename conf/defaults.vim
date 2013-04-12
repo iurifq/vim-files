@@ -43,3 +43,10 @@ set directory=$HOME/.vim/.swp-files//
 highlight OverLength ctermbg=darkred ctermfg=white guibg=#592929
 match OverLength /\%>80v.\+/
 set scrolloff=10
+
+" Automatically reload files if they were modified outside VIM
+set autoread
+
+" Automatic folding
+set foldmethod=syntax
+set nofoldenable
