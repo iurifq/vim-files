@@ -1,7 +1,11 @@
 syn on " colored syntax
 
 set number " line numbers
-set clipboard=unnamedplus " tries to use system clipboard
+if has("gui_macvim")
+  set clipboard=unnamed
+else
+  set clipboard=unnamedplus
+endif
 set cursorline
 
 if isdirectory(expand("~/.vim/bundle/molokai.vim"))
