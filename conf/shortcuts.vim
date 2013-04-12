@@ -25,13 +25,8 @@ map <leader>tn :tabnew<CR>
 map <leader>to :tabonly<CR>
 
 " tab navigation
-if has("gui_running")
-    nmap <C-Tab> gt
-    nmap <C-S-Tab> gT
-else
-    nmap <Tab> gt
-    nmap <S-Tab> gT
-endif
+nnoremap + gt
+nnoremap _ gT
 
 " W also saves
 command! W w
@@ -57,10 +52,12 @@ map <down> <nop>
 map <left> <nop>
 map <right> <nop>
 
-" Automatic folding
-set foldmethod=syntax
-set nofoldenable
-nmap <SPACE> za
+" Enter toggles a line comment
+nnoremap <CR> :call NERDComment('n', 'Toggle')<CR>
+vnoremap <CR> :call NERDComment('v', 'Toggle')<CR>
+
+" Fold by pressing space
+nnoremap <SPACE> za
 
 " clean last search results
 nnoremap <leader>lr <esc>:let @/ = ""<cr>:<esc>
@@ -75,3 +72,7 @@ fun! OpenVIMFiles()
   exe "CtrlP"
 endf
 nnoremap <leader>vi :call OpenVIMFiles()<CR>
+
+" FIXME find some use for K(help) and Q(ex mode)
+nnoremap Q <nop>
+nnoremap K <nop>
