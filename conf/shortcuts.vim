@@ -25,8 +25,8 @@ map <leader>tn :tabnew<CR>
 map <leader>to :tabonly<CR>
 
 " tab navigation
-nnoremap + gt
-nnoremap _ gT
+nnoremap <TAB> gt
+nnoremap <S-TAB> gT
 
 " W also saves
 command! W w
