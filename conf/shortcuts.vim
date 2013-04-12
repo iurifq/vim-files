@@ -76,3 +76,14 @@ nnoremap <leader>vi :call OpenVIMFiles()<CR>
 " FIXME find some use for K(help) and Q(ex mode)
 nnoremap Q <nop>
 nnoremap K <nop>
+
+nnoremap + :silent! let &guifont = substitute(
+ \ &guifont,
+ \ ':h\zs\d\+',
+ \ '\=eval(submatch(0)+1)',
+ \ '')<CR>
+nnoremap _ :silent! let &guifont = substitute(
+ \ &guifont,
+ \ ':h\zs\d\+',
+ \ '\=eval(submatch(0)-1)',
+ \ '')<CR>
