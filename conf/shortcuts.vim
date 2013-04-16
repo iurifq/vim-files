@@ -77,13 +77,15 @@ nnoremap <leader>vi :call OpenVIMFiles()<CR>
 nnoremap Q <nop>
 nnoremap K <nop>
 
-nnoremap + :silent! let &guifont = substitute(
- \ &guifont,
- \ ':h\zs\d\+',
- \ '\=eval(submatch(0)+1)',
- \ '')<CR>
-nnoremap _ :silent! let &guifont = substitute(
- \ &guifont,
- \ ':h\zs\d\+',
- \ '\=eval(submatch(0)-1)',
- \ '')<CR>
+if has("gui_running")
+  nnoremap + :silent! let &guifont = substitute(
+        \ &guifont,
+        \ '\d\+',
+        \ '\=eval(submatch(0)+1)',
+        \ '')<CR>
+  nnoremap _ :silent! let &guifont = substitute(
+        \ &guifont,
+        \ '\d\+',
+        \ '\=eval(submatch(0)-1)',
+        \ '')<CR>
+endif
