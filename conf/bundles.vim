@@ -35,8 +35,6 @@ Bundle 'rosstimson/scala-vim-support'
 
 Bundle 'sjl/gundo.vim'
 
-Bundle 'xolox/vim-session'
-
 Bundle 'scrooloose/syntastic'
 
 Bundle 'rodjek/vim-puppet'
