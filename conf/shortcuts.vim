@@ -35,12 +35,11 @@ command! W w
 command! Q q
 
 " Move lines up and down
-nnoremap <A-j> :m .+1<CR>==
-nnoremap <A-k> :m .-2<CR>==
-inoremap <A-j> <Esc>:m .+1<CR>==gi
-inoremap <A-k> <Esc>:m .-2<CR>==gi
-vnoremap <A-j> :m '>+1<CR>gv=gv
-vnoremap <A-k> :m '<-2<CR>gv=gv
+" originally K(help) and Q(ex mode), now they are more useful
+nnoremap Q :m .+1<CR>==
+nnoremap K :m .-2<CR>==
+vnoremap Q :m '>+1<CR>gv=gv
+vnoremap K :m '<-2<CR>gv=gv
 
 " Disable home and end keys
 map <home> <nop>
@@ -77,9 +76,6 @@ fun! InitFont()
   exe "set guifont=" . g:default_font . g:font_separator . g:default_font_size
 endfun
 
-" FIXME find some use for K(help) and Q(ex mode)
-nnoremap Q <nop>
-nnoremap K <nop>
 
 if has("gui_running")
   nnoremap + :silent! let &guifont = substitute(
