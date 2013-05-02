@@ -24,7 +24,7 @@ au BufNewFile,BufRead *.pp setf puppet
 let g:xml_syntax_folding=1
 au FileType xml setlocal foldmethod=syntax
 
-au BufReadPost fugitive://* set bufhidden=delete
+au BufReadPost * set bufhidden=delete
 
 " Remove trailling white spaces on saving
 func! DeleteTrailingWS()
