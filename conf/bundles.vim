@@ -55,6 +55,8 @@ Bundle 'othree/xml.vim'
 Bundle 'gcmt/psearch.vim'
 Bundle 'mattn/webapi-vim'
 
+Bundle 'nelstrom/vim-visual-star-search'
+
 " Git related
 Bundle 'tpope/vim-fugitive'
 Bundle 'gregsexton/gitv'
