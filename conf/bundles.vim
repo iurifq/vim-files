@@ -5,6 +5,7 @@ Bundle 'tpope/vim-surround'
 Bundle 'tpope/vim-repeat'
 Bundle 'tpope/vim-dispatch'
 Bundle 'tpope/vim-endwise'
+Bundle 'tpope/vim-abolish'
 
 Bundle 'ap/vim-css-color'
 
