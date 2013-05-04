@@ -52,7 +52,6 @@ Bundle 'szw/vim-tags'
 
 Bundle 'othree/xml.vim'
 
-Bundle 'gcmt/psearch.vim'
 Bundle 'mattn/webapi-vim'
 
 Bundle 'nelstrom/vim-visual-star-search'
