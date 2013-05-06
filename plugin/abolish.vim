@@ -1,2 +1,3 @@
-noremap s :S/
-noremap S :%S/
+noremap s :%S/
+
+Abolish lenght length
