@@ -15,10 +15,6 @@ map <C-k> <C-W>k
 map <C-h> <C-W>h
 map <C-l> <C-W>l
 
-" window split change
-nmap <leader>h <C-W>t <C-W>K
-nmap <leader>v <C-W>t <C-W>H
-
 " tab openning and closing
 map <leader>tc :tabclose<CR>
 map <leader>tn :tabnew<CR>
@@ -28,28 +24,24 @@ map <leader>to :tabonly<CR>
 nnoremap <TAB> gt
 nnoremap <S-TAB> gT
 
-" W also saves
-command! W w
+" Disable Q, K, backspace, arrow keys, home and end keys
+nnoremap Q <nop>
+vnoremap Q <nop>
+nnoremap K <nop>
+vnoremap K <nop>
 
-" Q also quits
-command! Q q
+nnoremap <S-backspace> <nop>
+nnoremap <backspace>   <nop>
+vnoremap <S-backspace> <nop>
+vnoremap <backspace>   <nop>
 
-" Move lines up and down
-" originally K(help) and Q(ex mode), now they are more useful
-nnoremap Q :m .+1<CR>==
-nnoremap K :m .-2<CR>==
-vnoremap Q :m '>+1<CR>gv=gv
-vnoremap K :m '<-2<CR>gv=gv
+map <up>     <nop>
+map <down>   <nop>
+map <left>   <nop>
+map <right>  <nop>
 
-" Disable home and end keys
-map <home> <nop>
-map <end> <nop>
-
-" Disable arrow keys
-map <up> <nop>
-map <down> <nop>
-map <left> <nop>
-map <right> <nop>
+map <home>   <nop>
+map <end>    <nop>
 
 " Enter toggles a line comment
 nnoremap <CR> :call NERDComment('n', 'Toggle')<CR>
@@ -75,7 +67,6 @@ nnoremap <leader>vi :call OpenVIMFiles()<CR>
 fun! InitFont()
   exe "set guifont=" . g:default_font . g:font_separator . g:default_font_size
 endfun
-
 
 if has("gui_running")
   nnoremap + :silent! let &guifont = substitute(
