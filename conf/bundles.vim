@@ -58,6 +58,12 @@ Bundle 'nelstrom/vim-visual-star-search'
 
 Bundle 'iurifq/vim-travis-ci'
 
+if has("gui_macvim")
+  " Dash OSX app plugin and funcoo dependecy
+  Bundle 'rizzatti/funcoo.vim'
+  Bundle 'rizzatti/dash.vim'
+endif
+
 " Git related
 Bundle 'tpope/vim-fugitive'
 Bundle 'gregsexton/gitv'
