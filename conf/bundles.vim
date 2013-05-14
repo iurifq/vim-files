@@ -79,4 +79,4 @@ Bundle 'tpope/vim-bundler'
 Bundle 'nelstrom/vim-textobj-rubyblock'
 
 " Themes
-Bundle 'mrtazz/molokai.vim'
+Bundle 'tomasr/molokai'
