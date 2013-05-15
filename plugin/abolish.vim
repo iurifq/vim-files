@@ -1,3 +1,5 @@
 noremap s :%S/
 
-Abolish lenght length
+if exists("g:loaded_abolish")
+  Abolish lenght length
+endif
