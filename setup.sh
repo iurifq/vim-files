@@ -14,4 +14,10 @@ echo "VIM Submodules..."
 git submodule init
 git submodule update
 
+echo "Installing gems..."
+bundle
+
+echo "Installing npm instant-markdown-d packages..."
+sudo npm -g install instant-markdown-d
+
 vim +BundleInstall!
