@@ -60,6 +60,8 @@ Bundle 'iurifq/vim-travis-ci'
 
 Bundle 'mjbrownie/swapit'
 
+Bundle 'suan/vim-instant-markdown'
+
 if has("gui_macvim")
   " Dash OSX app plugin and funcoo dependecy
   Bundle 'rizzatti/funcoo.vim'
