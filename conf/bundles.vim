@@ -75,7 +75,7 @@ Bundle 'mattn/gist-vim'
 
 " Ruby related
 Bundle 'vim-ruby/vim-ruby'
-Bundle 'ecomba/vim-ruby-refactoring'
+Bundle 'rking/vim-ruby-refactoring'
 Bundle 'tpope/vim-rails'
 Bundle 'tpope/vim-bundler'
 Bundle 'nelstrom/vim-textobj-rubyblock'
