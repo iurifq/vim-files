@@ -1,9 +1,15 @@
 #!/usr/bin/env bash
 
+echo "For better results, make sure you have: curl, npm, git, bundler and vim"
+
 echo "Creating symlinks..."
 
 if ! [[ -L $HOME/.vimrc ]]; then
   ln -s `pwd`/vimrc $HOME/.vimrc
+fi
+
+if ! [[ -L $HOME/.gvimrc ]]; then
+  ln -s `pwd`/gvimrc $HOME/.gvimrc
 fi
 
 if ! [[ -L $HOME/.vim ]]; then
