@@ -28,9 +28,9 @@ au BufReadPost * set bufhidden=delete
 
 " Remove trailling white spaces on saving
 func! DeleteTrailingWS()
-    exe "normal mz"
-    %s/\s\+$//ge
-    exe "normal `z"
+  exe "normal mz"
+  %s/\s\+$//ge
+  exe "normal `z"
 endfunc
 au BufWrite * :call DeleteTrailingWS()
 

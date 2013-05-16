@@ -25,28 +25,21 @@ Bundle "tomtom/tlib_vim"
 Bundle "honza/vim-snippets"
 Bundle "garbas/vim-snipmate"
 
-Bundle 'skwp/vim-rspec'
-
 Bundle 'Raimondi/delimitMate'
 
 Bundle 'Lokaltog/vim-powerline'
 
 Bundle 'MarcWeber/vim-addon-actions'
-Bundle 'MarcWeber/vim-addon-sbt'
 Bundle 'rosstimson/scala-vim-support'
 
 Bundle 'sjl/gundo.vim'
 
 Bundle 'scrooloose/syntastic'
 
-Bundle 'rodjek/vim-puppet'
-
 Bundle 'Spaceghost/vim-matchit'
 Bundle 'kana/vim-textobj-user'
 
 Bundle 'bkad/CamelCaseMotion'
-
-Bundle 'vim-scripts/loremipsum'
 
 Bundle 'szw/vim-tags'
 
@@ -79,7 +72,6 @@ Bundle 'mattn/gist-vim'
 Bundle 'vim-ruby/vim-ruby'
 Bundle 'rking/vim-ruby-refactoring'
 Bundle 'tpope/vim-rails'
-Bundle 'tpope/vim-bundler'
 Bundle 'nelstrom/vim-textobj-rubyblock'
 
 " Themes
