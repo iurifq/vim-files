@@ -49,6 +49,7 @@ vnoremap <CR> :call NERDComment('v', 'Toggle')<CR>
 
 " Fold by pressing space
 nnoremap <SPACE> za
+nnoremap <leader><SPACE> zA
 
 " clean last search results
 nnoremap <leader>lr <esc>:let @/ = ""<cr>:<esc>
