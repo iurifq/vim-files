@@ -23,7 +23,6 @@ The most important plugins I use are:
 * [abolish.vim] - abolish typos with a smart abbreviation schema and some other
   cool features
 * [vim-css-color] - highlight colors written in css files
-* [Indent Guides] - includes indentation lines to help you not get lost inside blocks
 * [Supertab] - plugin for smart completion
 * [NerdCommenter] - easily comment and uncomment lines, blocks, etc.
 * [ctrlp.vim] - fucking killer command to open files

@@ -9,8 +9,6 @@ Bundle 'tpope/vim-abolish'
 
 Bundle 'ap/vim-css-color'
 
-Bundle 'nathanaelkane/vim-indent-guides'
-
 Bundle 'ervandew/supertab'
 
 Bundle 'scrooloose/nerdcommenter'
