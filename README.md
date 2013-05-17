@@ -1,6 +1,8 @@
 vim-files
 =========
 
+![ruby code screenshot](http://i4.minus.com/iTFsSwoUoqJuI.png)
+
 ## Installation
 
 The script `setup.sh` should be enough to make symbolic links and install required
