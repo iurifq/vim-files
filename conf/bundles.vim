@@ -18,24 +18,22 @@ NeoBundle 'jasoncodes/ctrlp-modified.vim'
 
 NeoBundle 'majutsushi/tagbar'
 
-NeoBundle "MarcWeber/vim-addon-mw-utils"
-NeoBundle "tomtom/tlib_vim"
+NeoBundle "garbas/vim-snipmate", {'depends' : [
+      \ "MarcWeber/vim-addon-mw-utils",
+      \ "tomtom/tlib_vim"
+      \ ]}
+
 NeoBundle "honza/vim-snippets"
-NeoBundle "garbas/vim-snipmate"
 
 NeoBundle 'Raimondi/delimitMate'
 
 NeoBundle 'Lokaltog/vim-powerline'
 
-NeoBundle 'MarcWeber/vim-addon-actions'
 NeoBundle 'rosstimson/scala-vim-support'
 
 NeoBundle 'sjl/gundo.vim'
 
 NeoBundle 'scrooloose/syntastic'
-
-NeoBundle 'Spaceghost/vim-matchit'
-NeoBundle 'kana/vim-textobj-user'
 
 NeoBundle 'bkad/CamelCaseMotion'
 
@@ -43,23 +41,30 @@ NeoBundle 'szw/vim-tags'
 
 NeoBundle 'othree/xml.vim'
 
-NeoBundle 'mattn/webapi-vim'
-
 NeoBundle 'nelstrom/vim-visual-star-search'
 
-NeoBundle 'iurifq/vim-travis-ci'
+NeoBundle 'iurifq/vim-travis-ci', {'depends' : [
+      \ 'mattn/webapi-vim',
+      \ 'tpope/vim-fugitive'
+      \ ]}
 
 NeoBundle 'mjbrownie/swapit'
 
 NeoBundle 'suan/vim-instant-markdown'
 
-NeoBundle 'Shougo/vimproc'
-NeoBundle 'Shougo/vimshell.vim'
+NeoBundle 'Shougo/vimshell.vim', { 'depends' : [[
+      \ 'Shougo/vimproc', {
+      \   'build' : {
+      \       'windows' : 'make -f make_mingw32.mak',
+      \       'cygwin' : 'make -f make_cygwin.mak',
+      \       'mac' : 'make -f make_mac.mak',
+      \       'unix' : 'make -f make_unix.mak',
+      \      }
+      \   }]]}
 
 if has("gui_macvim")
   " Dash OSX app plugin and funcoo dependecy
-  NeoBundle 'rizzatti/funcoo.vim'
-  NeoBundle 'rizzatti/dash.vim'
+  NeoBundle 'rizzatti/dash.vim', {'depends' : 'rizzatti/funcoo.vim' }
 endif
 
 " Git related
@@ -67,13 +72,16 @@ NeoBundle 'tpope/vim-fugitive'
 NeoBundle 'gregsexton/gitv'
 NeoBundle 'airblade/vim-gitgutter'
 NeoBundle 'gilligan/textobj-gitgutter'
-NeoBundle 'mattn/gist-vim'
+NeoBundle 'mattn/gist-vim', { 'depends' : 'mattn/webapi-vim' }
 
 " Ruby related
 NeoBundle 'vim-ruby/vim-ruby'
-NeoBundle 'rking/vim-ruby-refactoring'
+NeoBundle 'rking/vim-ruby-refactoring', { 'depends' : 'Spaceghost/vim-matchit'}
 NeoBundle 'tpope/vim-rails'
-NeoBundle 'nelstrom/vim-textobj-rubyblock'
+NeoBundle 'nelstrom/vim-textobj-rubyblock', { 'depends' : [
+      \ 'kana/vim-textobj-user',
+      \ 'Spaceghost/vim-matchit'
+      \ ]}
 
 " Themes
 NeoBundle 'tomasr/molokai'
