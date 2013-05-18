@@ -3,4 +3,3 @@ plugin/eclim.vim
 sessions
 eclim
 bundle/*
-!bundle/vundle

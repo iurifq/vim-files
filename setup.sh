@@ -15,9 +15,8 @@ if ! [[ -L $HOME/.vim ]]; then
   ln -s `pwd` $HOME/.vim
 fi
 
-echo "VIM Submodules..."
-git submodule init
-git submodule update
+echo "Setting up package manager..."
+git clone git://github.com/Shougo/neobundle.vim.git bundle/neobundle.vim
 
 echo "Installing gems..."
 bundle
