@@ -9,19 +9,12 @@ NeoBundle 'tpope/vim-abolish'
 
 NeoBundle 'ap/vim-css-color'
 
-NeoBundle 'ervandew/supertab'
-
 NeoBundle 'scrooloose/nerdcommenter'
 
 NeoBundle 'kien/ctrlp.vim'
 NeoBundle 'jasoncodes/ctrlp-modified.vim'
 
 NeoBundle 'majutsushi/tagbar'
-
-NeoBundle "garbas/vim-snipmate", {'depends' : [
-      \ "MarcWeber/vim-addon-mw-utils",
-      \ "tomtom/tlib_vim"
-      \ ]}
 
 NeoBundle "honza/vim-snippets"
 
@@ -61,6 +54,9 @@ NeoBundle 'Shougo/vimshell.vim', { 'depends' : [[
       \       'unix' : 'make -f make_unix.mak',
       \      }
       \   }]]}
+
+NeoBundle 'Shougo/neocomplcache'
+NeoBundle 'Shougo/neosnippet'
 
 if has("gui_macvim")
   " Dash OSX app plugin and funcoo dependecy
