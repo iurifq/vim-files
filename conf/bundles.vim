@@ -40,6 +40,7 @@ NeoBundle 'iurifq/vim-travis-ci', {'depends' : [
       \ 'mattn/webapi-vim',
       \ 'tpope/vim-fugitive'
       \ ]}
+NeoBundle 'iurifq/ctrlp-rails.vim', {'depends' : 'kien/ctrlp.vim' }
 
 NeoBundle 'mjbrownie/swapit'
 
