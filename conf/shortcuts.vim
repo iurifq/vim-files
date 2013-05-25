@@ -52,7 +52,7 @@ nnoremap <SPACE> za
 nnoremap <leader><SPACE> zA
 
 " clean last search results
-nnoremap <leader>lr <esc>:let @/ = ""<cr>:<esc>
+nnoremap <leader>nh :noh<CR>
 
 " source current file
 nnoremap <leader>so :source %<CR>
