@@ -46,6 +46,8 @@ NeoBundle 'mjbrownie/swapit'
 
 NeoBundle 'suan/vim-instant-markdown'
 
+NeoBundle 'elixir-lang/vim-elixir'
+
 NeoBundle 'Shougo/vimshell.vim', { 'depends' : [[
       \ 'Shougo/vimproc', {
       \   'build' : {
