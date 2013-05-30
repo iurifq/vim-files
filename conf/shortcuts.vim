@@ -69,6 +69,14 @@ fun! InitFont()
   exe "set guifont=" . g:default_font . g:font_separator . g:default_font_size
 endfun
 
+fun! <SID>SynStack()
+  if !exists("*synstack")
+    return
+  endif
+  echo map(synstack(line('.'), col('.')), 'synIDattr(v:val, "name")')
+endfun
+nmap <leader>sy :call <SID>SynStack()<CR>
+
 if has("gui_running")
   nnoremap + :silent! let &guifont = substitute(
         \ &guifont,
