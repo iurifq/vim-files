@@ -61,6 +61,8 @@ NeoBundle 'Shougo/vimshell.vim', { 'depends' : [[
 NeoBundle 'Shougo/neocomplcache'
 NeoBundle 'Shougo/neosnippet'
 
+NeoBundle 'vim-scripts/sudo.vim'
+
 if has("gui_macvim")
   " Dash OSX app plugin and funcoo dependecy
   NeoBundle 'rizzatti/dash.vim', {'depends' : 'rizzatti/funcoo.vim' }
