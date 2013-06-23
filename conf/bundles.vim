@@ -58,7 +58,7 @@ NeoBundle 'Shougo/vimshell.vim', { 'depends' : [[
       \      }
       \   }]]}
 
-NeoBundle 'Shougo/neocomplcache'
+NeoBundle 'Shougo/neocomplete'
 NeoBundle 'Shougo/neosnippet'
 
 NeoBundle 'vim-scripts/sudo.vim'
