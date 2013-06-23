@@ -14,7 +14,7 @@ linux(Ubuntu 12.10, 13.04) and OSX(Lion and Mountain Lion).
 
 The most important plugins I use are:
 
-* [Vundle] - nice and simple package manager
+* [NeoBundle] - package manager based on [Vundle] but way better in features and support.
 * [unimpaired.vim] - many useful mappings for back and forth operations
 * [surround.vim] - modify surrounding delimiters with a single keystroke
 * [repeat.vim] - add repeat funcionality with `.` command for many of Tim Pope's
@@ -31,9 +31,9 @@ The most important plugins I use are:
 * [ctrlp-modified.vim] - ctrlp.vim extension to open files modified since last commit
   and since branch creation
 * [Tagbar] - adds a nice bar based on the tags for the current file.
-* [vim-snippets] - snippets repository for many languages for both Snipmate &
-  UltiSnip Snippets. Currently, I help mantaining Ruby snippets.
-* [snipmate.vim] - snippets engine
+* [vim-snippets] - snippets repository for many languages for both [Snipmate],
+  UltiSnip Snippets and [NeoSnippet]. Currently, I help maintaining Ruby and Elixir snippets.
+* [NeoSnippet] - snippets engine
 * [delimitMate] - auto close of `()`, `[]`, `{}`
 * [vim-powerline] - beatiful and useful status line. It's going to be deprecated
   in favor of a [new version][new powerline]. I'm sticking to the old one until that.
@@ -46,7 +46,7 @@ The most important plugins I use are:
 * [xml.vim] - some goodies for our beloved xml editting
 * [vim-visual-star-search] - fix strange behaviour for `*` in visual mode
 * [Travis CI Vim] - plugin that I created for Travis CI build browsing
-* [SwapIt] - adds nice feature of running `<C-A>` and `<C-X>` on words like `yes`,
+* [SwapIt] - improves Vim `<C-A>` and `<C-X>` to work on words like `yes`,
   `no`, `true`, `false` and some others
 * [vim-instant-markdown] - automatically preview markdown edited within Vim
 * [rizzatti/dash.vim] - add Vim support for OSX Dash app
@@ -58,7 +58,7 @@ The most important plugins I use are:
 * [gist-vim] - creates, lists, reads, edits gists from within Vim
 * [vim-ruby] - helps editing Ruby source code
 * [vim-ruby-refactoring] - helps ruby code refactor
-* [rails.vim] - helps editing Rails apps
+* [rails.vim] - adds syntax highlight and helps editing Rails apps
 * [vim-textobj-rubyblock] - creates Vim text objects for ruby code(`ir`, `ar`). Also
   lets you use `%` to move between `do .. end`, `if .. end` and other paired ruby
   keywords
@@ -105,6 +105,9 @@ The most important plugins I use are:
 [[rails.vim]: https://github.com/tpope/vim-rails
 [vim-textobj-rubyblock]: https://github.com/nelstrom/vim-textobj-rubyblock
 [Molokai]: https://github.com/tomasr/molokai
+[neobundle]: https://github.com/Shougo/neobundle.vim
+[neosnippet]: https://github.com/Shougo/neosnippet.vim
+[neocomplete]: https://github.com/Shougo/neocomplete.vim
 
 ## Organization
 
@@ -120,9 +123,10 @@ are placed in `conf/shortcuts.vim` file.
 ### Plugin settings
 
 Each plugin has its entry in `conf/bundles.vim` file. This file is going to be
-used by [Vundle]. Plugins that need custom settings have a file with its name in
-`plugin` directory. All shortcuts plugins, plugin variables will be placed there.
-Vim automatically loads all these files when it is starting up.
+used by [NeoBundle] install/enable the plugins. Plugins that need custom settings
+have a file with its name in `plugin` directory. All shortcuts plugins, plugin
+variables will be placed there. Vim automatically loads all these files when it
+is starting up.
 
 ## Shortcuts
 
