@@ -9,6 +9,7 @@ nnoremap <leader>gr :Gread<CR>
 nnoremap <leader>gw :Gwrite<CR>
 nnoremap <leader>gp :Git pull
 nnoremap <leader>gP :Git push
+nnoremap <leader>gco :Git checkout
 
 " 3-way merge
 nnoremap <leader>he :diffget //2<CR>
