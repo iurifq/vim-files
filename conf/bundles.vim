@@ -85,6 +85,7 @@ NeoBundle 'nelstrom/vim-textobj-rubyblock', { 'depends' : [
       \ 'kana/vim-textobj-user',
       \ 'Spaceghost/vim-matchit'
       \ ]}
+NeoBundle 'jgdavey/vim-blockle'
 
 " Themes
 NeoBundle 'tomasr/molokai'
