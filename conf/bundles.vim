@@ -24,7 +24,7 @@ NeoBundle 'Lokaltog/vim-powerline'
 
 NeoBundle 'rosstimson/scala-vim-support'
 
-NeoBundle 'sjl/gundo.vim'
+NeoBundle 'mbbill/undotree'
 
 NeoBundle 'scrooloose/syntastic'
 
