@@ -56,7 +56,7 @@ NeoBundle 'Shougo/vimshell.vim', { 'depends' : [[
       \       'mac' : 'make -f make_mac.mak',
       \       'unix' : 'make -f make_unix.mak',
       \      }
-      \   }]]}
+      \ }]]}
 
 NeoBundle 'Shougo/neocomplete'
 NeoBundle 'Shougo/neosnippet'
@@ -89,5 +89,6 @@ NeoBundle 'jgdavey/vim-blockle'
 
 " Themes
 NeoBundle 'tomasr/molokai'
+NeoBundle 'chriskempson/tomorrow-theme', {'rtp': 'vim/'}
 
 NeoBundleCheck

@@ -10,6 +10,8 @@ set cursorline
 
 if isdirectory(expand("~/.vim/bundle/molokai"))
   colorscheme molokai
+elseif isdirectory(expand("~/.vim/bundle/tomorrow-theme"))
+  colorscheme Tomorrow-Night-Bright
 else
   colorscheme delek
 endif
