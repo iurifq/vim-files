@@ -20,7 +20,7 @@ NeoBundle "honza/vim-snippets"
 
 NeoBundle 'Raimondi/delimitMate'
 
-NeoBundle 'Lokaltog/vim-powerline'
+NeoBundle 'bling/vim-airline'
 
 NeoBundle 'rosstimson/scala-vim-support'
 
