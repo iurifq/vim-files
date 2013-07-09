@@ -41,7 +41,7 @@ The most important plugins I use are:
 * [Syntastic] - syntactic rules for many languages
 * [vim-textobj-user] - helps you define custom [text objects]
 * [CamelCaseMotion] - move between camel case and snake case words
-* [vim-tags] - easily ctags generation
+* [vim-tags] - easily generate ctags from within Vim
 * [xml.vim] - some goodies for our beloved xml editting
 * [vim-visual-star-search] - fix strange behaviour for `*` in visual mode
 * [Travis CI Vim] - plugin that I created for Travis CI build browsing
@@ -50,17 +50,17 @@ The most important plugins I use are:
 * [vim-instant-markdown] - automatically preview markdown edited within Vim
 * [rizzatti/dash.vim] - add Vim support for OSX Dash app
 * [fugitive.vim] - cool git wrapper
-* [gitv] - fugitive.vim extension to view git logs beatifully
-* [vim-gitgutter] - adds nice signs warning about included, removed and modified lines
-  related to git HEAD
+* [gitv] - [fugitive.vim] extension to view git logs beautifully
+* [vim-gitgutter] - adds nice signs warning about file modifications in a git
+  tracked repository
 * [textobj-gitgutter] - creates text objects related to Vim Git Gutter hunks(`ih`, `ah`)
 * [gist-vim] - creates, lists, reads, edits gists from within Vim
 * [vim-ruby] - helps editing Ruby source code
 * [vim-ruby-refactoring] - helps ruby code refactor
 * [rails.vim] - adds syntax highlight and helps editing Rails apps
-* [vim-textobj-rubyblock] - creates Vim text objects for ruby code(`ir`, `ar`). Also
-  lets you use `%` to move between `do .. end`, `if .. end` and other paired ruby
-  keywords
+* [vim-textobj-rubyblock] - creates Vim text objects for ruby code(`ir`, `ar`).
+  Also lets you use `%` to move between `do .. end`, `if .. end` and other paired
+  ruby keywords
 
 [Vundle]: https://github.com/gmarik/vundle
 [unimpaired.vim]: https://github.com/gmarik/tpope/vim-unimpaired
