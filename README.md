@@ -25,7 +25,6 @@ The most important plugins I use are:
 * [abolish.vim] - abolish typos with a smart abbreviation schema and some other
   cool features
 * [vim-css-color] - highlight colors written in css files
-* [Supertab] - plugin for smart completion
 * [NerdCommenter] - easily comment and uncomment lines, blocks, etc.
 * [ctrlp.vim] - fucking killer command to open files
 * [ctrlp-modified.vim] - ctrlp.vim extension to open files modified since last commit
@@ -72,7 +71,6 @@ The most important plugins I use are:
 [abolish.vim]: https://github.com/tpope/vim-abolish
 [vim-css-color]: https://github.com/ap/vim-css-color
 [Indent Guides]: https://github.com/nathanaelkane/vim-indent-guides
-[Supertab]: https://github.com/ervandew/supertab
 [NerdCommenter]: https://github.com/scrooloose/nerdcommenter
 [ctrlp.vim]: https://github.com/kien/ctrlp.vim
 [ctrlp-modified.vim]: https://github.com/jasoncodes/ctrlp-modified.vim
