@@ -1,4 +1,5 @@
 syn on " colored syntax
+set t_Co=256
 
 set number " line numbers
 if has("gui_macvim")
