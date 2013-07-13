@@ -26,11 +26,9 @@ au FileType xml setlocal foldmethod=syntax
 
 au BufReadPost * set bufhidden=delete
 
-" Remove trailling white spaces on saving
-func! DeleteTrailingWS()
+func! DeleteTrailingWSAndSave()
   exe "normal mz"
   %s/\s\+$//ge
   exe "normal `z"
+  w
 endfunc
-au BufWrite * :call DeleteTrailingWS()
-

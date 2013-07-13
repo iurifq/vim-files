@@ -90,3 +90,5 @@ if has("gui_running")
         \ '')<CR>
   nnoremap =0 :call InitFont()<CR>
 endif
+
+command! W :call DeleteTrailingWSAndSave()
