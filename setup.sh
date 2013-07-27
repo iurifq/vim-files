@@ -24,4 +24,4 @@ bundle
 echo "Installing npm instant-markdown-d packages..."
 sudo npm -g install instant-markdown-d
 
-vim +NeoBundleInstall!
+vim
