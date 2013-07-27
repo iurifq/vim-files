@@ -19,6 +19,7 @@ map <C-l> <C-W>l
 map <leader>tc :tabclose<CR>
 map <leader>tn :tabnew<CR>
 map <leader>to :tabonly<CR>
+map <leader>o :only<CR>
 
 " tab navigation
 nnoremap <TAB> gt
