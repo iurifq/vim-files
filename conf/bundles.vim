@@ -66,6 +66,8 @@ NeoBundle 'vim-scripts/sudo.vim'
 NeoBundle 'sickill/vim-pasta'
 NeoBundle 'mhinz/vim-startify'
 
+NeoBundle 'kchmck/vim-coffee-script'
+
 if has("gui_macvim")
   " Dash OSX app plugin and funcoo dependecy
   NeoBundle 'rizzatti/dash.vim', {'depends' : 'rizzatti/funcoo.vim' }
