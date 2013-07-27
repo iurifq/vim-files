@@ -58,6 +58,8 @@ set autoread
 set foldmethod=syntax
 set nofoldenable
 
+set shell=/bin/sh
+
 let g:default_font = 'Source\ Code\ Pro'
 if has("gui_macvim")
   let g:default_font_size = 14
