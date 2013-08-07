@@ -86,6 +86,7 @@ NeoBundle 'mattn/gist-vim', { 'depends' : 'mattn/webapi-vim' }
 NeoBundle 'vim-ruby/vim-ruby'
 NeoBundle 'rking/vim-ruby-refactoring', { 'depends' : 'Spaceghost/vim-matchit'}
 NeoBundle 'tpope/vim-rails'
+NeoBundle 'tpope/vim-bundler'
 NeoBundle 'nelstrom/vim-textobj-rubyblock', { 'depends' : [
       \ 'kana/vim-textobj-user',
       \ 'Spaceghost/vim-matchit'
