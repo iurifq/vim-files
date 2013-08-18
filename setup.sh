@@ -21,7 +21,7 @@ git clone git://github.com/Shougo/neobundle.vim.git bundle/neobundle.vim
 echo "Installing gems..."
 bundle
 
-echo "Installing npm instant-markdown-d packages..."
-sudo npm -g install instant-markdown-d
+echo "Installing npm packages..."
+sudo npm -g install instant-markdown-d coffee-script coffeelint
 
 vim

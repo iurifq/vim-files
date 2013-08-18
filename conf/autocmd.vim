@@ -21,6 +21,8 @@ au BufNewFile,BufRead *.json setf javascript
 au BufNewFile,BufRead *.md setf markdown
 au BufNewFile,BufRead *.pp setf puppet
 
+au BufNewFile,BufReadPost *.coffee setl foldmethod=indent nofoldenable
+
 let g:xml_syntax_folding=1
 au FileType xml setlocal foldmethod=syntax
 
