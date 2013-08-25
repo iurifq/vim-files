@@ -48,6 +48,11 @@ map <end>    <nop>
 nnoremap <CR> :call NERDComment('n', 'Toggle')<CR>
 vnoremap <CR> :call NERDComment('v', 'Toggle')<CR>
 
+" Shift+Enter toggles between normal, insert and visual mode
+nnoremap <S-CR> i
+vnoremap <S-CR> <Esc>
+inoremap <S-CR> <Esc>
+
 " Fold by pressing space
 nnoremap <SPACE> za
 nnoremap <leader><SPACE> zA
