@@ -67,6 +67,7 @@ NeoBundle 'sickill/vim-pasta'
 NeoBundle 'mhinz/vim-startify'
 
 NeoBundle 'kchmck/vim-coffee-script'
+NeoBundle 'nono/vim-handlebars'
 
 NeoBundle 'dag/vim-fish'
 
