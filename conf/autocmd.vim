@@ -8,6 +8,8 @@ au FileType java map <buffer> <leader>se :JavaSearch<cr>
 au FileType java map <buffer> <leader>jd :JavaDocComment<cr>
 au FileType java map <buffer> <leader>ju :JUnit<cr>
 
+au FileType ruby map <leader>hs :%s/:\([^ ]*\)\(\s*\)=>/\1:/g<cr>
+
 " Java indent with 4 spaces
 au FileType java setlocal tabstop=4 shiftwidth=4 softtabstop=4
 
