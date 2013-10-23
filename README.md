@@ -129,3 +129,7 @@ is starting up.
 ## Shortcuts
 
 TODO
+
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/iurifq/vim-files/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
