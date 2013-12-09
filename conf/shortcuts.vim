@@ -15,6 +15,10 @@ map <C-k> <C-W>k
 map <C-h> <C-W>h
 map <C-l> <C-W>l
 
+" horizontal from/to vertical splits
+map <leader>hv <C-W>t<C-W>H
+map <leader>vh <C-W>t<C-W>K
+
 " tab openning and closing
 map <leader>tc :tabclose<CR>
 map <leader>tn :tabnew<CR>
