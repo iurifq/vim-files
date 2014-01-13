@@ -1,11 +1,18 @@
 GEM
   remote: https://rubygems.org/
   specs:
+    ast (1.1.0)
+    parser (2.0.0)
+      ast (~> 1.1)
+      slop (~> 3.4, >= 3.4.5)
     posix-spawn (0.3.6)
     pygments.rb (0.5.0)
       posix-spawn (~> 0.3.6)
       yajl-ruby (~> 1.1.0)
     redcarpet (2.2.2)
+    seeing_is_believing (2.0.4)
+      parser (~> 2.0.0)
+    slop (3.4.7)
     yajl-ruby (1.1.0)
 
 PLATFORMS
@@ -14,3 +21,4 @@ PLATFORMS
 DEPENDENCIES
   pygments.rb
   redcarpet
+  seeing_is_believing
