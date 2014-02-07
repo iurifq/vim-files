@@ -94,7 +94,6 @@ NeoBundle 'nelstrom/vim-textobj-rubyblock', { 'depends' : [
       \ 'Spaceghost/vim-matchit'
       \ ]}
 NeoBundle 'jgdavey/vim-blockle'
-NeoBundle 't9md/vim-ruby-xmpfilter'
 
 " Themes
 NeoBundle 'tomasr/molokai'
