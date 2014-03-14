@@ -68,3 +68,9 @@ else
   let g:default_font_size = 12
   let g:font_separator = '\ '
 endif
+
+" The Silver Searcher
+if executable('ag')
+  " Use ag over grep
+  set grepprg=ag\ --nogroup\ --nocolor
+endif

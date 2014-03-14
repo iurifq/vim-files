@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-echo "For better results, make sure you have: curl, npm, git, bundler and exuberant-ctags"
+echo "For better results, make sure you have: curl, npm, git, bundler, exuberant-ctags and silver searcher"
 
 echo "Creating symlinks..."
 

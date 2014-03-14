@@ -71,6 +71,8 @@ NeoBundle 'nono/vim-handlebars'
 
 NeoBundle 'dag/vim-fish'
 
+NeoBundle 'rking/ag.vim'
+
 if has("gui_macvim")
   " Dash OSX app plugin and funcoo dependecy
   NeoBundle 'rizzatti/dash.vim', {'depends' : 'rizzatti/funcoo.vim' }

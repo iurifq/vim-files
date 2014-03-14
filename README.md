@@ -7,8 +7,8 @@ vim-files
 
 The script `setup.sh` should be enough to make symbolic links and install required
 dependencies. However, some dependencies should be manually installed. Make sure you
-have installed: curl, npm, git, bundler, exuberant-ctags. It is tested in both
-linux(Ubuntu 12.10, 13.04) and OSX(Lion and Mountain Lion).
+have installed: curl, npm, git, bundler, exuberant-ctags, silver searcher. It is tested
+in both linux(Ubuntu 12.10, 13.04) and OSX(Lion and Mountain Lion).
 
 ## Plugins
 

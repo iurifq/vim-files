@@ -7,7 +7,7 @@ let g:ctrlp_user_command = {
     \ 'types': {
         \ 1: ['.git', 'cd %s && git ls-files && git ls-files --others --exclude-standard | sort | uniq'],
         \ },
-    \ 'fallback': 'find %s -type f'
+    \ 'fallback': 'ag %s -l --nocolor -g ""'
     \ }
 
 let g:ctrlp_extensions = ['line', 'modified']
