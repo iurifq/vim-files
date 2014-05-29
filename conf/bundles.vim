@@ -1,14 +1,5 @@
 NeoBundleFetch 'Shougo/neobundle.vim'
 
-NeoBundle 'tpope/vim-unimpaired'
-NeoBundle 'tpope/vim-surround'
-NeoBundle 'tpope/vim-repeat'
-NeoBundle 'tpope/vim-dispatch'
-NeoBundle 'tpope/vim-endwise'
-NeoBundle 'tpope/vim-abolish'
-
-NeoBundle 'ap/vim-css-color'
-
 NeoBundle 'scrooloose/nerdcommenter'
 
 NeoBundle 'kien/ctrlp.vim'
@@ -16,13 +7,11 @@ NeoBundle 'jasoncodes/ctrlp-modified.vim'
 
 NeoBundle 'majutsushi/tagbar'
 
-NeoBundle "honza/vim-snippets"
+NeoBundle 'honza/vim-snippets'
 
 NeoBundle 'Raimondi/delimitMate'
 
 NeoBundle 'bling/vim-airline'
-
-NeoBundle 'rosstimson/scala-vim-support'
 
 NeoBundle 'mbbill/undotree'
 
@@ -31,8 +20,6 @@ NeoBundle 'scrooloose/syntastic'
 NeoBundle 'bkad/CamelCaseMotion'
 
 NeoBundle 'szw/vim-tags'
-
-NeoBundle 'othree/xml.vim'
 
 NeoBundle 'nelstrom/vim-visual-star-search'
 
@@ -43,10 +30,6 @@ NeoBundle 'iurifq/vim-travis-ci', {'depends' : [
 NeoBundle 'iurifq/ctrlp-rails.vim', {'depends' : 'kien/ctrlp.vim' }
 
 NeoBundle 'mjbrownie/swapit'
-
-NeoBundle 'suan/vim-instant-markdown'
-
-NeoBundle 'elixir-lang/vim-elixir'
 
 NeoBundle 'Shougo/vimshell.vim', { 'depends' : [[
       \ 'Shougo/vimproc', {
@@ -66,11 +49,6 @@ NeoBundle 'vim-scripts/sudo.vim'
 NeoBundle 'sickill/vim-pasta'
 NeoBundle 'mhinz/vim-startify'
 
-NeoBundle 'kchmck/vim-coffee-script'
-NeoBundle 'nono/vim-handlebars'
-
-NeoBundle 'dag/vim-fish'
-
 NeoBundle 'rking/ag.vim'
 
 NeoBundle 'wellle/targets.vim'
@@ -80,13 +58,30 @@ if has("gui_macvim")
   NeoBundle 'rizzatti/dash.vim', {'depends' : 'rizzatti/funcoo.vim' }
 endif
 
-" Git related
-NeoBundle 'tpope/vim-fugitive'
-NeoBundle 'gregsexton/gitv'
-"NeoBundle 'airblade/vim-gitgutter'
-"NeoBundle 'gilligan/textobj-gitgutter'
-NeoBundle 'mhinz/vim-signify'
-NeoBundle 'mattn/gist-vim', { 'depends' : 'mattn/webapi-vim' }
+" tpope <3
+NeoBundle 'tpope/vim-unimpaired'
+NeoBundle 'tpope/vim-surround'
+NeoBundle 'tpope/vim-repeat'
+NeoBundle 'tpope/vim-dispatch'
+NeoBundle 'tpope/vim-endwise'
+NeoBundle 'tpope/vim-abolish'
+
+" Languages/technologies support
+
+NeoBundle 'dag/vim-fish'
+
+NeoBundle 'kchmck/vim-coffee-script'
+NeoBundle 'nono/vim-handlebars'
+
+NeoBundle 'elixir-lang/vim-elixir'
+
+NeoBundle 'rosstimson/scala-vim-support'
+
+NeoBundle 'ap/vim-css-color'
+
+NeoBundle 'othree/xml.vim'
+
+NeoBundle 'suan/vim-instant-markdown'
 
 " Ruby related
 NeoBundle 'vim-ruby/vim-ruby'
@@ -98,6 +93,12 @@ NeoBundle 'nelstrom/vim-textobj-rubyblock', { 'depends' : [
       \ 'Spaceghost/vim-matchit'
       \ ]}
 NeoBundle 'jgdavey/vim-blockle'
+
+" Git related
+NeoBundle 'tpope/vim-fugitive'
+NeoBundle 'gregsexton/gitv'
+NeoBundle 'mhinz/vim-signify'
+NeoBundle 'mattn/gist-vim', { 'depends' : 'mattn/webapi-vim' }
 
 " Themes
 NeoBundle 'tomasr/molokai'
