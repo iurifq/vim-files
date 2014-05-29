@@ -5,8 +5,6 @@ NeoBundle 'scrooloose/nerdcommenter'
 NeoBundle 'kien/ctrlp.vim'
 NeoBundle 'jasoncodes/ctrlp-modified.vim'
 
-NeoBundle 'majutsushi/tagbar'
-
 NeoBundle 'honza/vim-snippets'
 
 NeoBundle 'Raimondi/delimitMate'
@@ -18,8 +16,6 @@ NeoBundle 'mbbill/undotree'
 NeoBundle 'scrooloose/syntastic'
 
 NeoBundle 'bkad/CamelCaseMotion'
-
-NeoBundle 'szw/vim-tags'
 
 NeoBundle 'nelstrom/vim-visual-star-search'
 
