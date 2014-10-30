@@ -100,4 +100,6 @@ NeoBundle 'mattn/gist-vim', { 'depends' : 'mattn/webapi-vim' }
 NeoBundle 'tomasr/molokai'
 NeoBundle 'chriskempson/tomorrow-theme', {'rtp': 'vim/'}
 
+call neobundle#end()
+
 NeoBundleCheck
