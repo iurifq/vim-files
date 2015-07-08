@@ -29,25 +29,6 @@ map <leader>o :only<CR>
 nnoremap <TAB> gt
 nnoremap <S-TAB> gT
 
-" Disable Q, K, backspace, arrow keys, home and end keys
-nnoremap Q <nop>
-vnoremap Q <nop>
-nnoremap K <nop>
-vnoremap K <nop>
-
-nnoremap <S-backspace> <nop>
-nnoremap <backspace>   <nop>
-vnoremap <S-backspace> <nop>
-vnoremap <backspace>   <nop>
-
-map <up>     <nop>
-map <down>   <nop>
-map <left>   <nop>
-map <right>  <nop>
-
-map <home>   <nop>
-map <end>    <nop>
-
 " Enter toggles a line comment
 nnoremap <CR> :call NERDComment('n', 'Toggle')<CR>
 vnoremap <CR> :call NERDComment('v', 'Toggle')<CR>
