@@ -81,7 +81,6 @@ NeoBundle 'suan/vim-instant-markdown'
 
 " Ruby related
 NeoBundle 'vim-ruby/vim-ruby'
-NeoBundle 'rking/vim-ruby-refactoring', { 'depends' : 'Spaceghost/vim-matchit'}
 NeoBundle 'tpope/vim-rails'
 NeoBundle 'tpope/vim-bundler'
 NeoBundle 'nelstrom/vim-textobj-rubyblock', { 'depends' : [
