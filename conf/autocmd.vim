@@ -22,6 +22,7 @@ au BufNewFile,BufRead *.gradle setf groovy
 au BufNewFile,BufRead *.json setf javascript
 au BufNewFile,BufRead *.md setf markdown
 au BufNewFile,BufRead *.pp setf puppet
+au BufNewFile,BufRead *.arb setf ruby
 
 au BufNewFile,BufReadPost *.coffee setl foldmethod=indent nofoldenable
 
