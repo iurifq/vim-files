@@ -25,7 +25,7 @@ NeoBundle 'iurifq/ctrlp-rails.vim', {'depends' : 'ctrlpvim/ctrlp.vim' }
 NeoBundle 'mjbrownie/swapit'
 
 NeoBundle 'Shougo/neocomplete'
-NeoBundle 'Shougo/neosnippet'
+NeoBundle 'SirVer/ultisnips'
 
 NeoBundle 'vim-scripts/sudo.vim'
 
