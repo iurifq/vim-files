@@ -34,29 +34,24 @@ The most important plugins I use are:
   UltiSnip Snippets and [NeoSnippet]. Currently, I help maintaining Ruby and Elixir snippets.
 * [NeoSnippet] - snippets engine
 * [delimitMate] - auto close of `()`, `[]`, `{}`
-* [vim-powerline] - beatiful and useful status line. It's going to be deprecated
-  in favor of a [new version][new powerline]. I'm sticking to the old one until that.
+* [vim-airline] - light and powerful status line plugin all written in VimL
 * [scala-vim-support] - scala indentation and syntax highlight
-* [gundo.vim] - fucking awesome way to not loose nothing while undoing things
+* [undotree] - fucking awesome way to not loose nothing while undoing things
 * [Syntastic] - syntactic rules for many languages
 * [vim-textobj-user] - helps you define custom [text objects]
 * [CamelCaseMotion] - move between camel case and snake case words
 * [vim-tags] - easily generate ctags from within Vim
 * [xml.vim] - some goodies for our beloved xml editting
 * [vim-visual-star-search] - fix strange behaviour for `*` in visual mode
-* [Travis CI Vim] - plugin that I created for Travis CI build browsing
 * [SwapIt] - improves Vim `<C-A>` and `<C-X>` to work on words like `yes`,
   `no`, `true`, `false` and some others
 * [vim-instant-markdown] - automatically preview markdown edited within Vim
-* [rizzatti/dash.vim] - add Vim support for OSX Dash app
 * [fugitive.vim] - cool git wrapper
 * [gitv] - [fugitive.vim] extension to view git logs beautifully
-* [vim-gitgutter] - adds nice signs warning about file modifications in a git
+* [vim-signify] - adds nice signs warning about file modifications in a git
   tracked repository
-* [textobj-gitgutter] - creates text objects related to Vim Git Gutter hunks(`ih`, `ah`)
 * [gist-vim] - creates, lists, reads, edits gists from within Vim
 * [vim-ruby] - helps editing Ruby source code
-* [vim-ruby-refactoring] - helps ruby code refactor
 * [rails.vim] - adds syntax highlight and helps editing Rails apps
 * [vim-textobj-rubyblock] - creates Vim text objects for ruby code(`ir`, `ar`).
   Also lets you use `%` to move between `do .. end`, `if .. end` and other paired
@@ -72,16 +67,15 @@ The most important plugins I use are:
 [vim-css-color]: https://github.com/ap/vim-css-color
 [Indent Guides]: https://github.com/nathanaelkane/vim-indent-guides
 [NerdCommenter]: https://github.com/scrooloose/nerdcommenter
-[ctrlp.vim]: https://github.com/kien/ctrlp.vim
+[ctrlp.vim]: https://github.com/ctrlpvim/ctrlp.vim
 [ctrlp-modified.vim]: https://github.com/jasoncodes/ctrlp-modified.vim
 [Tagbar]: https://github.com/majutsushi/tagbar
 [vim-snippets]: https://github.com/honza/vim-snippets
 [snipmate.vim]: https://github.com/garbas/vim-snipmate
 [delimitMate]: https://github.com/Raimondi/delimitMate
-[vim-powerline]: https://github.com/Lokaltog/vim-powerline
-[new powerline]: https://github.com/Lokaltog/powerline
+[vim-airline]: https://github.com/bling/vim-airline
 [scala-vim-support]: https://github.com/rosstimson/scala-vim-support
-[gundo.vim]: https://github.com/sjl/gundo.vim
+[undotree]: https://github.com/mbbill/undotree
 [Syntastic]: https://github.com/scrooloose/syntastic
 [vim-textobj-user]: https://github.com/kana/vim-textobj-user
 [text objects]: http://blog.carbonfive.com/2011/10/17/vim-text-objects-the-definitive-guide
@@ -89,18 +83,13 @@ The most important plugins I use are:
 [vim-tags]: https://github.com/szw/vim-tags
 [xml.vim]: https://github.com/othree/xml.vim
 [vim-visual-star-search]: https://github.com/nelstrom/vim-visual-star-search
-[Travis CI Vim]: https://github.com/iurifq/vim-travis-ci
 [SwapIt]: https://github.com/mjbrownie/swapit
 [vim-instant-markdown]: https://github.com/suan/vim-instant-markdown
-[rizzatti/dash.vim]: https://github.com/rizzatti/dash.vim
 [fugitive.vim]: https://github.com/tpope/vim-fugitive
 [gitv]: https://github.com/gregsexton/gitv
-[vim-gitgutter]: https://github.com/airblade/vim-gitgutter
-[textobj-gitgutter]: https://github.com/gilligan/textobj-gitgutter
 [gist-vim]: https://github.com/mattn/gist-vim
 [vim-ruby]: https://github.com/vim-ruby/vim-ruby
-[vim-ruby-refactoring]: https://github.com/rking/vim-ruby-refactoring
-[[rails.vim]: https://github.com/tpope/vim-rails
+[rails.vim]: https://github.com/tpope/vim-rails
 [vim-textobj-rubyblock]: https://github.com/nelstrom/vim-textobj-rubyblock
 [Molokai]: https://github.com/tomasr/molokai
 [neobundle]: https://github.com/Shougo/neobundle.vim

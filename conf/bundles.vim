@@ -2,8 +2,9 @@ NeoBundleFetch 'Shougo/neobundle.vim'
 
 NeoBundle 'scrooloose/nerdcommenter'
 
-NeoBundle 'kien/ctrlp.vim'
+NeoBundle 'ctrlpvim/ctrlp.vim'
 NeoBundle 'jasoncodes/ctrlp-modified.vim'
+NeoBundle 'majutsushi/tagbar'
 
 NeoBundle 'honza/vim-snippets'
 
@@ -19,23 +20,9 @@ NeoBundle 'bkad/CamelCaseMotion'
 
 NeoBundle 'nelstrom/vim-visual-star-search'
 
-NeoBundle 'iurifq/vim-travis-ci', {'depends' : [
-      \ 'mattn/webapi-vim',
-      \ 'tpope/vim-fugitive'
-      \ ]}
-NeoBundle 'iurifq/ctrlp-rails.vim', {'depends' : 'kien/ctrlp.vim' }
+NeoBundle 'iurifq/ctrlp-rails.vim', {'depends' : 'ctrlpvim/ctrlp.vim' }
 
 NeoBundle 'mjbrownie/swapit'
-
-NeoBundle 'Shougo/vimshell.vim', { 'depends' : [[
-      \ 'Shougo/vimproc', {
-      \   'build' : {
-      \       'windows' : 'make -f make_mingw32.mak',
-      \       'cygwin' : 'make -f make_cygwin.mak',
-      \       'mac' : 'make -f make_mac.mak',
-      \       'unix' : 'make -f make_unix.mak',
-      \      }
-      \ }]]}
 
 NeoBundle 'Shougo/neocomplete'
 NeoBundle 'Shougo/neosnippet'
@@ -48,11 +35,6 @@ NeoBundle 'mhinz/vim-startify'
 NeoBundle 'rking/ag.vim'
 
 NeoBundle 'wellle/targets.vim'
-
-if has("gui_macvim")
-  " Dash OSX app plugin and funcoo dependecy
-  NeoBundle 'rizzatti/dash.vim', {'depends' : 'rizzatti/funcoo.vim' }
-endif
 
 " tpope <3
 NeoBundle 'tpope/vim-unimpaired'
@@ -83,6 +65,7 @@ NeoBundle 'suan/vim-instant-markdown'
 NeoBundle 'vim-ruby/vim-ruby'
 NeoBundle 'tpope/vim-rails'
 NeoBundle 'tpope/vim-bundler'
+NeoBundle 'tpope/vim-rbenv'
 NeoBundle 'nelstrom/vim-textobj-rubyblock', { 'depends' : [
       \ 'kana/vim-textobj-user',
       \ 'Spaceghost/vim-matchit'
