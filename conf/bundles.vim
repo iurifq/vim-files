@@ -82,6 +82,8 @@ NeoBundle 'mattn/gist-vim', { 'depends' : 'mattn/webapi-vim' }
 NeoBundle 'tomasr/molokai'
 NeoBundle 'chriskempson/tomorrow-theme', {'rtp': 'vim/'}
 
+NeoBundle 'junegunn/vim-easy-align'
+
 call neobundle#end()
 
 NeoBundleCheck
