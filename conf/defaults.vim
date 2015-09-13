@@ -2,11 +2,7 @@ syn on " colored syntax
 set t_Co=256
 
 set number " line numbers
-if has("gui_macvim")
-  set clipboard=unnamed
-else
-  set clipboard=unnamedplus
-endif
+set clipboard=unnamed
 set cursorline
 
 if isdirectory(expand("~/.vim/bundle/molokai"))
