@@ -60,6 +60,12 @@ set nofoldenable
 
 set shell=/bin/sh
 
+set showcmd
+set complete+=kspell
+
+hi clear SpellBad
+hi SpellBad cterm=underline
+
 let g:default_font = 'Source\ Code\ Pro'
 if has("gui_macvim")
   let g:default_font_size = 14
