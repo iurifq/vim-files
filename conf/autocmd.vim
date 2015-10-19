@@ -37,3 +37,5 @@ func! DeleteTrailingWSAndSave()
   exe "normal `z"
   w
 endfunc
+
+autocmd VimEnter,BufNewFile,BufReadPost * silent! call HardMode()

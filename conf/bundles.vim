@@ -84,6 +84,8 @@ NeoBundle 'chriskempson/tomorrow-theme', {'rtp': 'vim/'}
 
 NeoBundle 'junegunn/vim-easy-align'
 
+NeoBundle 'wikitopian/hardmode'
+
 call neobundle#end()
 
 NeoBundleCheck
