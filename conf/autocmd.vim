@@ -38,4 +38,8 @@ func! DeleteTrailingWSAndSave()
   w
 endfunc
 
+" Line number stuff
+au FocusLost,InsertEnter,WinEnter,BufNewFile * silent! set number
+au WinLeave,InsertLeave * silent! set relativenumber
+
 autocmd VimEnter,BufNewFile,BufReadPost * silent! call HardMode()
